@@ -1,5 +1,6 @@
 # Introduction
-This plugin provides several handy text objects for javascript
+This plugin provides several handy text objects for javascript.  
+You need to install https://github.com/kana/vim-textobj-user first.
 
 # Text Objects
 - ac, ic (chunk)  
