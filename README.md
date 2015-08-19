@@ -1,12 +1,8 @@
-# TODO
-1. add readme
-2. add my package to https://github.com/kana/vim-textobj-user/wiki
-
 # Introduction
 This plugin provides several handy text objects for javascript
 
 # Text Objects
-- ac, ic (chunk)
+- ac, ic (chunk)  
   A **chunk** is a block of code between the beginning of the line that
   contains '{' and the end of the line that contains the paired '}'
   ```
@@ -27,5 +23,5 @@ This plugin provides several handy text objects for javascript
     //...
   }[]
   ```
-- af, if (function)
+- af, if (function)  
   TODO
