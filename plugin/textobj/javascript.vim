@@ -26,6 +26,7 @@ if exists('g:loaded_textobj_javascript')
   finish
 endif
 
+let g:loaded_textobj_javascript = 1
 
 " chunk
 " ac, ic
@@ -38,6 +39,7 @@ call textobj#user#plugin('chunkblock', {
 \   },
 \ })
 
+" todo: include other charaters that we can use for %
 function! ChunkBlock()
   normal! $va{g$
   let tail_pos = getpos('.')
@@ -45,13 +47,3 @@ function! ChunkBlock()
   let head_pos = getpos('.')
   return ['v', head_pos, tail_pos]
 endfunction
-
-
-
-
-
-
-let g:loaded_textobj_javascript = 1
-
-" __END__
-" vim: foldmethod=marker
