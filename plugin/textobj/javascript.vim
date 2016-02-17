@@ -40,6 +40,10 @@ call textobj#user#plugin('chunkblock', {
 \ })
 
 " todo: include other charaters that we can use for %
+" - find the closest ( { [, // check how wild fire does it, or use search
+" - if not found, echom, return
+" - get the beginning line of [
+" - get the end line of ]
 function! ChunkBlock()
   normal! $va{g$
   let tail_pos = getpos('.')
